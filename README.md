@@ -1,5 +1,4 @@
 # multiCriteriaDimReduction
-Multi-Criteria Dimensionality Reduction
 
 This repo contains the codes of the paper Multi-Criteria Dimensionality Reduction with Applications to Fairness.
 
