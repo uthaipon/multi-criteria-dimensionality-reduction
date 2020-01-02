@@ -56,3 +56,6 @@ MM_Loss, MM_Var, NSW are three fairness criteria, corresponding to the following
 | MM_Var | maximizing minimum variance across all groups, i.e. maximizing min_{all groups i} Var_i |
 | NSW | maximizing Nash social welfare of variances, which is the geometric mean of the variance across groups, i.e. maximizing (product_{all groups i} Var_i)^(1/d) |
   
+## Note
+
+This work expends the prior work "The Price of Fair PCA: One Extra Dimension" at https://github.com/uthaipon/Fair-PCA. The algorithms in this repo are applicable to more general settings. This repo is in Python (Jypyter notebook) and the previous version (Fair PCA) was implemented in MATLAB.
