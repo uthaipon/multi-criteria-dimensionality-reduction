@@ -13,6 +13,10 @@ Each of the Jupyter notebooks shows how to apply one of the PCA strategy (fair S
 
 To use, we recommend opening one of the Jupyter notebooks and running through it, e.g. SDP_credit.ipynb. You can check the format of the data and see an example usage, and apply to your own datasets. For more details of the usage, each method (MW, fair SDP-based PCA, std_PCA, etc.) has documentation of usage in corresponding .py files, including what to expect as an input and output. The *Notations* subsection also gives a quick explanation of variable names and keywords.
 
+## Variants of Algorithms
+
+The main folder contains SDP algorithm. In heuristics, we develop MW and FW alternatives which is much faster in practice. The runtime of these are in order of a minute for data of up to 1000 original dimensions, and about 10 minutes for up to 2000 dimensions. We recommend using those for n>=50.
+
 ## Notations
 This subsection explains variables and keywords used in the code.
 
