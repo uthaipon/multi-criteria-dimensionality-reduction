@@ -17,6 +17,12 @@ To use, we recommend opening one of the Jupyter notebooks and running through it
 
 You can check the format of the data and see an example usage, and apply to your own datasets. For more details of the usage, each method (MW, fair SDP-based PCA, std_PCA, etc.) has documentation of usage in corresponding .py files, including what to expect as an input and output. The *Notations* subsection also gives a quick explanation of variable names and keywords.
 
+### Papers
+
+The original paper at NeurIPS can be found at https://papers.nips.cc/paper/9652-multi-criteria-dimensionality-reduction-with-applications-to-fairness. The arXiv version is at https://arxiv.org/abs/1902.11281v2. 
+
+Additional heuristics are included later in a subsection in my thesis: https://www.uthaipon.com/files/U-Tantipongpipat-phd-thesis-final.pdf
+
 ### Contact 
 If you have any question, feel free to reach me at [my username] [at] gmail dot com.
 
